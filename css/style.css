@@ -1,0 +1,34 @@
+@import url('./reset.css');
+
+.logo {
+	font-size: 32px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+.tsCategorys {
+	max-width: 600px;
+	margin: 0 10px;
+}
+
+.tsHandleCell {
+	display: inline-block;
+	width: 8px;
+}
+
+.tsCategoryName {
+	width: 50%;
+	border: none;
+}
+
+.tsWeightCell {
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0 20px;
+}
+
+.tsQtyCell {
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0 20px;
+}

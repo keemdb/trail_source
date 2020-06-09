@@ -1,14 +1,30 @@
 @import url('./reset.css');
 
 .logo {
-	font-size: 32px;
-	font-weight: bold;
-	margin: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0px 20px 20px;
+}
+
+.hsHeader {
+	border-bottom: 1px solid #aaa;
 }
 
 .hsCategorys {
 	max-width: 600px;
 	margin: 0 10px;
+}
+
+.hsItem {
+	padding: 5px 0;
+}
+
+.hsItem .hsName {
+	width: 150px;
+}
+
+.hsItem .hsDescription {
+	width: 150px;
 }
 
 .hsHandleCell {
@@ -26,7 +42,7 @@
 .hsWeightCell {
 	font-size: 13px;
 	font-weight: bold;
-	margin: 0 20px;
+	width: 50px;
 }
 
 .hsQtyCell {
@@ -34,3 +50,12 @@
 	font-weight: bold;
 	margin: 0 20px;
 }
+
+.hsFooter {
+	border-top: 1px solid #aaa;
+}
+
+.hsFooter .hsAddItem {
+	color: #7ab317;
+	font-size: 13px;
+} 

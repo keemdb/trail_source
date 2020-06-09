@@ -6,28 +6,30 @@
 	margin: 10px;
 }
 
-.tsCategorys {
+.hsCategorys {
 	max-width: 600px;
 	margin: 0 10px;
 }
 
-.tsHandleCell {
+.hsHandleCell {
 	display: inline-block;
 	width: 8px;
 }
 
-.tsCategoryName {
+.hsCategoryName {
 	width: 50%;
 	border: none;
+	font-size: 18px;
+	font-weight: bold;
 }
 
-.tsWeightCell {
+.hsWeightCell {
 	font-size: 13px;
 	font-weight: bold;
 	margin: 0 20px;
 }
 
-.tsQtyCell {
+.hsQtyCell {
 	font-size: 13px;
 	font-weight: bold;
 	margin: 0 20px;

@@ -50,3 +50,8 @@ a {
 input {
 	border: none;
 }
+
+input:focus {
+	background-color: #eee;
+	outline: none;
+}

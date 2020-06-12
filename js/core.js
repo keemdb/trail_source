@@ -22,3 +22,10 @@ $('.hsAddItem').click(function(){
 	$('.hsFooter').before(hsItem);
 	
 });
+
+$('input').mouseover(function () { 
+	$(this).css('background', '#eee');
+});
+$('input').mouseleave(function () { 
+	$(this).css('background', 'none');
+});
